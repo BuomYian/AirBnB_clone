@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-"""State Class
-"""
+"""State class that inherit from BaseModel"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """State Class
-    Args:
-        BaseModel ([class]): [class inherited by State]
-    """
+    """Attribute for name of the state"""
     name = ""
